@@ -1,487 +1,528 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-
-
-.img {
-  width: 150px;
-  height: 40px;
-  border:2px solid #fff;
-  background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUPEhIVEhUVFQ8PFRUVGBcVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKCg0LDgUFDisZExkrKysrKystLSsrKysrKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHxABAQEAAgICAwAAAAAAAAAAABEBIfBBgQKRMWFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDswFRSgAelQgGYEAAqwEAAMwIAqAGhACmABAAM+jQzACqgBA0CBUBQpwAABAhgAaUDA0oF7yQIAGG6AAABQKbgABQEimgAUA0Cgd8hQDUUwBNXQAKUAAAAEMUoHAAILSgAAHoAEXNAKFNAAAv6AoFDv5AAAApQAQF0KUDQgABoBqLQAoBEUoAACKUAiKCKUAAoAlAUgkBQTQXdSqAAAYBACpqglUAEqgBQAPtCYChEoLTAAAAgi7gCAC6ABoAAYAGlTNBQAKehAUAARQASgoAAigAABSgAegWIICotUEAACACKAi4AFNAAAAAAzQARaAGAAABgFBFXEAqLUBSAACgmEACFKAQAADQIQKCLAAgUApAA0wUE0gAFDQIACCzvACKEAAABAWpVoAEAAACotBFACmhQMAwAAAoAUKAAAgsxAFMNwCAgKIsAQWgBpgIoAAgKAAAAigIoAAAJVAEhFBJ/AoCgQAoaAQKBSGABAADSAFDAAAApoG4ZhgAAAGFAFQDEUBBq95ASIulAoQoBQA4DQEWhAMAAoYAFMAKABoUACAFKGAcAUEXSgJBaAIpARSgEwIAQwAEimAGYQgGEAEUAAAKAAatSAEAACAQCgAAAAAAZiVTNAwNAAACACVcwzTQDSAAZpAAAEXvkASqtAQgAQIAACGIAq4gC/Fd/CAIvxQA1dQAxfiALrOgB4aAE1kAa1nABdABpABjWtADDQBoAH//Z) no-repeat;
-  -moz-box-shadow: 100px 600px 100px #ccc;
-  -webkit-box-shadow: 10px 600px 500px #ccc;
-  box-shadow: 2px 6px 5px #ccc;
-  -moz-border-radius:100px;
-  -webkit-border-radius:10px;
-  border-radius:10px;
-}
-
-
-
-.column {
-  float: left;
-  width: 45%;
-  padding: 2px 2px;
-  flex: 0%;
-  margin-top: 1px;
-
- 
+  <style>
+    .img:hover {
+      width: 140px;
+      height: 70px;
+      border: 2px solid #fff;
+      background: url() no-repeat;
+      -moz-box-shadow: 100px 600px 100px #ccc;
+      -webkit-box-shadow: 10px 600px 500px #ccc;
+      box-shadow: 2px 6px 5px #ccc;
+      -moz-border-radius: 100px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+       background-color: #385072;
+      color: #385072;
+    }
 
 
 
-}
+    .column {
+      float: left;
+      width: 45%;
+      padding: 2px 2px;
+      flex: 0%;
+      margin-top: 1px;
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 
-}
-.row1::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row2::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row3::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row4::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row5::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row6::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row7::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row8::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
+
+
+
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+
+    }
+
+    .row1::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row2::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row3::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row4::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row5::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row6::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row7::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row8::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
 </head>
-<body >
+
+<body>
 
 
-    <script type="text/javascript">
-        function dana (){
-            window.parent.postMessage(
+  <script type="text/javascript">
+    function dana() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How To Make Payment With DANA"
+          event_code: "ym-client-event",
+          data: "How To Make Payment With DANA"
         }),
         "*"
-    );
-        }
-        function indosat (){
-            window.parent.postMessage(
+      );
+    }
+    function indosat() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Indomaret"
+          event_code: "ym-client-event",
+          data: "How to make payments with Indomaret"
         }),
         "*"
-    );
-        }
+      );
+    }
 
 
-        function kredivo (){
-            window.parent.postMessage(
+    function kredivo() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Kredivo"
+          event_code: "ym-client-event",
+          data: "How to make payments with Kredivo"
         }),
         "*"
-    );
-        }
+      );
+    }
 
-        function ovo (){
-            window.parent.postMessage(
+    function ovo() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with OVO"
+          event_code: "ym-client-event",
+          data: "How to make payments with OVO"
         }),
         "*"
-    );
-        }
+      );
+    }
 
-        function telkomsel (){
-            window.parent.postMessage(
+    function telkomsel() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Telkomsel"
+          event_code: "ym-client-event",
+          data: "How to make payments with Telkomsel"
         }),
         "*"
-    );
-        }
+      );
+    }
 
-        function gopay (){
-            window.parent.postMessage(
+    function gopay() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How To Make Payment With GoPay Balance"
+          event_code: "ym-client-event",
+          data: "How To Make Payment With GoPay Balance"
         }),
         "*"
-    );
-        }
+      );
+    }
 
 
-        function shopeepay (){
-            window.parent.postMessage(
+    function shopeepay() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with shopeepay"
+          event_code: "ym-client-event",
+          data: "How to make payments with shopeepay"
         }),
         "*"
-    );
-        }
+      );
+    }
 
-        function smartfren (){
-            window.parent.postMessage(
+    function smartfren() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Smartfren"
+          event_code: "ym-client-event",
+          data: "How to make payments with Smartfren"
         }),
         "*"
-    );
-        }
+      );
+    }
 
-        function indomart (){
-            window.parent.postMessage(
+    function indomart() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Indomaret"
+          event_code: "ym-client-event",
+          data: "How to make payments with Indomaret"
         }),
         "*"
-    );
-        }
+      );
+    }
 
 
 
 
-        function truemoney (){
-            window.parent.postMessage(
+    function truemoney() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How To Make Payment With TrueMoney"
+          event_code: "ym-client-event",
+          data: "How To Make Payment With TrueMoney"
         }),
         "*"
-    );
-        }
+      );
+    }
 
-        function alfamart (){
-            window.parent.postMessage(
+    function alfamart() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Alfamart"
+          event_code: "ym-client-event",
+          data: "How to make payments with Alfamart"
         }),
         "*"
-    );
+      );
 
-        }
+    }
 
 
-        function doku (){
-            window.parent.postMessage(
+    function doku() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to Make a Payment With Doku"
+          event_code: "ym-client-event",
+          data: "How to Make a Payment With Doku"
         }),
         "*"
-    );
-    
-        }
+      );
 
-        function xlcredit (){
-            window.parent.postMessage(
+    }
+
+    function xlcredit() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with XL"
+          event_code: "ym-client-event",
+          data: "How to make payments with XL"
         }),
         "*"
-    );
-    
-        }
+      );
+
+    }
 
 
 
-        function tri(){
-            window.parent.postMessage(
+    function tri() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with Tri Credit "
+          event_code: "ym-client-event",
+          data: "How to make payments with Tri Credit "
         }),
         "*"
-    );
-    
-        }
+      );
+
+    }
 
 
-        function bcamobile(){
-            window.parent.postMessage(
+    function bcamobile() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with BCA mobile"
+          event_code: "ym-client-event",
+          data: "How to make payments with BCA mobile"
         }),
         "*"
-    );
-    
-        }
+      );
 
-        function linkaja(){
-            window.parent.postMessage(
+    }
+
+    function linkaja() {
+      window.parent.postMessage(
         JSON.stringify({
-            event_code: "ym-client-event",
-            data: "How to make payments with LinkAja"
+          event_code: "ym-client-event",
+          data: "How to make payments with LinkAja"
         }),
         "*"
-    );
-    
-        }
-</script>
+      );
 
-<h4 style="font-family:Geneva ;">Please choose from the options below💁‍♀️
-</h4>
+    }
+  </script>
 
-
-
-
-
-<center>
- 
-<div class="row">
-  <div class="column">
-    <div class="img">
-
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/xUkSsFS1KSIC1620825409953.png" border="0" alt="Submit" style="width: 90px;"   onclick="dana()"/>
-
-
-</div>
-  </div>
-
-
-
-  <div class="column">
-        <div class="img">
-      <input type="image" name="submit" src="https://cdn.yellowmessenger.com/BaKiXAOjXSEn1620825642149.png" border="0" alt="Submit" style="width: 90px;" onclick="indosat()"/>
-
-
-  </div>
-</div>
-
-  </center>
+  <h4 style="font-family:Geneva ;">Please choose from the options below💁‍♀️
+  </h4>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<center>
- 
-<div class="row">
-  <div class="column">
-    <div class="img">
-
-    <img  src="https://cdn.yellowmessenger.com/xUkSsFS1KSIC1620825409953.png" width="90" height="50"  onclick="dana()">
-</div>
-  </div>
-
-
-
-  <div class="column">
-        <div class="img">
-
-    <img src="https://cdn.yellowmessenger.com/BaKiXAOjXSEn1620825642149.png" width="90" height="50" onclick="indosat()">
-  </div>
-</div>
-
-  </center>
-
-
-<center>
-
-
-</div>
-<div class="row1">
-  <div class="column">
-            <div class="img">
-
-    <img src="https://cdn.yellowmessenger.com/k3XVyJJtKTzA1620825320510.png" width="90" height="50" onclick="kredivo()">
-</div>
-
-  </div>
-  <div class="column">
-            <div class="img">
-
-
-    <img src="https://cdn.yellowmessenger.com/a4ZkBaKuMM2R1620825464809.png" width="90" height="50" onclick="ovo()">
-</div>
-  </div>
-</div>
-
-  </center>
 
   <center>
 
-</div>
-<div class="row2">
-  <div class="column">
-            <div class="img">
+    <div class="row">
+      <div class="column">
+        <div class="img">
 
-    <img src="https://cdn.yellowmessenger.com/aGXpurzUoqhE1620825581438.png" width="90" height="50" onclick="telkomsel()">
-</div>
-  </div>
-  <div class="column">
-            <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/xUkSsFS1KSIC1620825409953.png"
+            border="0" alt="Submit" style="width: 90px;height: 70px" onclick="dana()" />
+  
 
-    <img src="https://cdn.yellowmessenger.com/aMCtWkXNbJ6T1620825726443.png" width="90" height="50" onclick="gopay()">
-</div>
-  </div>
-  </div>
+         
 
-</center>
-
-<center>
+        </div>
+      </div>
 
 
 
-<div class="row3">
-  <div class="column">
-    <div class="img">
-
-    <img src="https://cdn.yellowmessenger.com/hf3LOyYwo8Sm1620825681270.png" width="90" height="50" onclick="shopeepay()">
-</div>
-  </div>
-  <div class="column">
-            <div class="img">
-
-    <img src="https://cdn.yellowmessenger.com/jDPt8jtXrzur1620825763433.png" width="90" height="50" onclick="smartfren()">
-</div>
-  </div>
-</div>
-
-</center>
-<center>
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/BaKiXAOjXSEn1620825642149.png"
+            border="0" alt="Submit" style="width: 90px;height: 70px"  onclick="indosat()" />
 
 
-<div class="row4">
-  <div class="column">
-            <div class="img">
+        </div>
+      </div>
 
-    <img src="https://cdn.yellowmessenger.com/Wwm04XXQxEdA1620825838757.png" width="90" height="50" onclick="indomart()">
-</div>
-
-  </div>
-  <div class="column">
-            <div class="img">
-
-    <img src="https://cdn.yellowmessenger.com/NsiHJ8hG9xgh1620816387827.png" width="90" height="50" onclick="linkaja()">
-</div>
-  </div>
-</div>
-
-</center>
-<center>
+  </center>
 
 
-<div class="row5">
-  <div class="column">
-            <div class="img">
 
 
-    <img src="https://cdn.yellowmessenger.com/PXWP7140Dpi91620826031897.png" width="90" height="50" onclick="truemoney()">
+  <center>
 
-</div>
-  </div>
-  <div class="column">
-            <div class="img">
+    <div class="row1">
+      <div class="column">
+        <div class="img">
 
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/k3XVyJJtKTzA1620825320510.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="kredivo()" />
 
-    <img src="https://cdn.yellowmessenger.com/UPZLqcSwYHks1620825798233.png" width="90" height="50" onclick="alfamart()">
-
-</div>
-  </div>
-</div>
-
-</center>
-<center>
+        </div>
+      </div>
 
 
-<div class="row6">
-  <div class="column">
-            <div class="img">
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/a4ZkBaKuMM2R1620825464809.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="ovo()" />
 
 
-    <img src="https://cdn.yellowmessenger.com/rE7dFWGD3D9I1620826004901.png" width="90" height="50" onclick="doku()">
-</div>
+        </div>
+      </div>
 
-  </div>
-  <div class="column">
-            <div class="img">
-
-    <img src="https://cdn.yellowmessenger.com/peFbbTdc8s4W1620825908235.png" width="90" height="50" onclick="xlcredit()">
-</div>
+  </center>
 
 
-  </div>
-</div>
-
-</center>
-<center>
 
 
-<div class="row7">
-  <div class="column">
-            <div class="img">
 
 
-    <img src="https://cdn.yellowmessenger.com/XEqvF5vmEO4m1620825554587.png" width="90" height="50"onclick="tri()">
-</div>
 
-  </div>
-  <div class="column">
-            <div class="img">
+  <center>
 
-    <img src="https://cdn.yellowmessenger.com/JLxLgmjzqZvQ1620825508103.png" width="90" height="50" onclick="bcamobile()">
-</div>
+    <div class="row2">
+      <div class="column">
+        <div class="img">
 
-  </div>
-</div>
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/aGXpurzUoqhE1620825581438.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="telkomsel()" />
 
-</center>
+        </div>
+      </div>
+
+
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/aMCtWkXNbJ6T1620825726443.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="gopay()" />
+
+
+        </div>
+      </div>
+
+  </center>
+
+
+
+
+
+
+
+
+  <center>
+
+    <div class="row3">
+      <div class="column">
+        <div class="img">
+
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/hf3LOyYwo8Sm1620825681270.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="shopeepay()" />
+
+        </div>
+      </div>
+
+
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/jDPt8jtXrzur1620825763433.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="smartfren()" />
+
+
+        </div>
+      </div>
+
+  </center>
+
+
+
+
+
+
+
+
+  <center>
+
+    <div class="row4">
+      <div class="column">
+        <div class="img">
+
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/Wwm04XXQxEdA1620825838757.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="indomart()" />
+
+        </div>
+      </div>
+
+
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/NsiHJ8hG9xgh1620816387827.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="linkaja()" />
+
+
+        </div>
+      </div>
+
+  </center>
+
+
+
+ <center>
+
+    <div class="row5">
+      <div class="column">
+        <div class="img">
+
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/PXWP7140Dpi91620826031897.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="truemoney()" />
+
+        </div>
+      </div>
+
+
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/UPZLqcSwYHks1620825798233.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="alfamart()" />
+
+
+        </div>
+      </div>
+
+  </center>
+
+
+
+ <center>
+
+    <div class="row6">
+      <div class="column">
+        <div class="img">
+
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/rE7dFWGD3D9I1620826004901.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"   onclick="doku()" />
+
+        </div>
+      </div>
+
+
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/peFbbTdc8s4W1620825908235.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"   onclick="xlcredit()" />
+
+
+        </div>
+      </div>
+
+  </center>
+
+
+
+ <center>
+
+    <div class="row7">
+      <div class="column">
+        <div class="img">
+
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/XEqvF5vmEO4m1620825554587.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"    onclick="tri()" />
+
+        </div>
+      </div>
+
+
+
+      <div class="column">
+        <div class="img">
+          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/JLxLgmjzqZvQ1620825508103.png"
+            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="bcamobile()" />
+
+
+        </div>
+      </div>
+
+  </center>
 
   
+ 
+
+
+
+
+
   
+
+
+
+
 
 
 </body>
+
 </html>
