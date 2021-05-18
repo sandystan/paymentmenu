@@ -1,96 +1,48 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <style>
-    .img:hover {
-      width: 140px;
-      height: 70px;
-      border: 2px solid #fff;
-      background: url() no-repeat;
-      -moz-box-shadow: 100px 600px 100px #ccc;
-      -webkit-box-shadow: 10px 600px 500px #ccc;
-      box-shadow: 2px 6px 5px #ccc;
-      -moz-border-radius: 100px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
-       background-color: #385072;
-      color: #385072;
-    }
-
-
-
-    .column {
-      float: left;
-      width: 45%;
-      padding: 2px 2px;
-      flex: 0%;
-      margin-top: 1px;
-
-
-
-
-
-    }
-
-    /* Clearfix (clear floats) */
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-
-    }
-
-    .row1::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row2::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row3::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row4::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row5::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row6::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row7::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .row8::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-  </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        img {
+            vertical-align: middle;
+            max-width: 90px;
+            width: 90px;
+            max-height: 100%;
+            margin: 0%;
+            padding-right: 2px;
+        }
+        button {
+            padding: 2px;
+            margin: 0.5% 1% 0% 1%;
+            width: 48%;
+            max-width: 48%;
+            height: 10%;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid steelblue;
+            -webkit-border-radius: 10px;
+            background-color: white;
+        }
+        button:hover {
+            -webkit-box-shadow: 100px 600px 500px #ccc;
+            box-shadow: 2px 6px 5px #ccc;
+            -moz-box-shadow: 100px 600px 100px #ccc;
+            border: 3px solid #385072;
+            -moz-border-radius: 10px;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+        button {
+            padding: 5px;
+        }
+    </style>
 </head>
-
 <body>
 
 
@@ -270,259 +222,135 @@
     }
   </script>
 
-  <h4 style="font-family:Geneva ;">Please choose from the options below💁‍♀️
-  </h4>
+  <h4 style="font-family:lato ;">Please choose from the options below💁‍♀️</h4>
 
 
 
 
 
-  <center>
 
-    <div class="row">
-      <div class="column">
-        <div class="img">
+<button type="button" onclick="dana()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/PblDFIT7wreu1621319545778.png" alt="Place Holder" />
+    </button>
 
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/PblDFIT7wreu1621319545778.png"
-            border="0" alt="Submit" style="width: 90px;height: 70px" onclick="dana()" />
-  
 
-         
 
-        </div>
-      </div>
+<button type="button" onclick="indosat()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/WCF9aSb7oW9A1621344364599.png" alt="Place Holder" />
+    </button>
 
 
 
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/BaKiXAOjXSEn1620825642149.png"
-            border="0" alt="Submit" style="width: 90px;height: 70px"  onclick="indosat()" />
 
+<button type="button"  onclick="kredivo()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/LbhdC5FtN3Io1621343965740.png" alt="Place Holder" />
+    </button>
 
-        </div>
-      </div>
 
-  </center>
+    
+<button type="button" onclick="ovo()"  class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/4UIDxLbkdNL41621344251257.png" alt="Place Holder" />
+    </button>
 
+<button type="button"  onclick="telkomsel()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/16UNlbO1mILT1621345541740.png" alt="Place Holder" />
+    </button>
 
 
+    
+<button type="button" onclick="gopay()"  class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/Ic5p3nkopxgZ1621345449448.png" alt="Place Holder" />
+    </button>
 
-  <center>
 
-    <div class="row1">
-      <div class="column">
-        <div class="img">
 
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/k3XVyJJtKTzA1620825320510.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="kredivo()" />
+    <button type="button"   onclick="shopeepay()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/v3BcY1acr6N41621345674250.png" alt="Place Holder" />
+    </button>
 
-        </div>
-      </div>
 
+    
+<button type="button"  onclick="smartfren()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/xuJDjNF4RLmZ1621345960103.png" alt="Place Holder" />
+    </button>
 
 
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/a4ZkBaKuMM2R1620825464809.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="ovo()" />
+ <button type="button"   onclick="indomart()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/iyZhPithmt171621346414029.png" alt="Place Holder" />
+    </button>
 
 
-        </div>
-      </div>
 
-  </center>
 
 
 
+    
+<button type="button"   onclick="linkaja()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/Fct7HEIjO0dy1621346523464.png" alt="Place Holder" />
+    </button>
 
 
 
+     <button type="button"  onclick="truemoney()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/WZwjeHOHRQyK1621346631051.png" alt="Place Holder" />
+    </button>
 
-  <center>
 
-    <div class="row2">
-      <div class="column">
-        <div class="img">
+    
+<button type="button"     onclick="alfamart()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/TgtsxpRhOvM81621346866582.png" alt="Place Holder" />
+    </button>
 
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/aGXpurzUoqhE1620825581438.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="telkomsel()" />
 
-        </div>
-      </div>
 
+    <button type="button"   onclick="doku()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/46M3cDauxd5n1621346967457.png" alt="Place Holder" />
+    </button>
 
 
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/aMCtWkXNbJ6T1620825726443.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="gopay()" />
+    
+<button type="button"     onclick="xlcredit()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/qJgW4yOGYWMA1621347294379.png" alt="Place Holder" />
+    </button>
 
 
-        </div>
-      </div>
 
-  </center>
+    <button type="button"   onclick="tri()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/0Lvy28DvZF691621347098389.png" alt="Place Holder" />
+    </button>
 
 
-
-
-
-
-
-
-  <center>
-
-    <div class="row3">
-      <div class="column">
-        <div class="img">
-
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/hf3LOyYwo8Sm1620825681270.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px" onclick="shopeepay()" />
-
-        </div>
-      </div>
-
-
-
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/jDPt8jtXrzur1620825763433.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="smartfren()" />
-
-
-        </div>
-      </div>
-
-  </center>
-
-
-
-
-
-
-
-
-  <center>
-
-    <div class="row4">
-      <div class="column">
-        <div class="img">
-
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/Wwm04XXQxEdA1620825838757.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="indomart()" />
-
-        </div>
-      </div>
-
-
-
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/NsiHJ8hG9xgh1620816387827.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="linkaja()" />
-
-
-        </div>
-      </div>
-
-  </center>
-
-
-
- <center>
-
-    <div class="row5">
-      <div class="column">
-        <div class="img">
-
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/PXWP7140Dpi91620826031897.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="truemoney()" />
-
-        </div>
-      </div>
-
-
-
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/UPZLqcSwYHks1620825798233.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="alfamart()" />
-
-
-        </div>
-      </div>
-
-  </center>
-
-
-
- <center>
-
-    <div class="row6">
-      <div class="column">
-        <div class="img">
-
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/rE7dFWGD3D9I1620826004901.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"   onclick="doku()" />
-
-        </div>
-      </div>
-
-
-
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/peFbbTdc8s4W1620825908235.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"   onclick="xlcredit()" />
-
-
-        </div>
-      </div>
-
-  </center>
-
-
-
- <center>
-
-    <div class="row7">
-      <div class="column">
-        <div class="img">
-
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/XEqvF5vmEO4m1620825554587.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"    onclick="tri()" />
-
-        </div>
-      </div>
-
-
-
-      <div class="column">
-        <div class="img">
-          <input type="image" name="submit" src="https://cdn.yellowmessenger.com/JLxLgmjzqZvQ1620825508103.png"
-            border="0" alt="Submit" style="width: 90px;height: 65px"  onclick="bcamobile()" />
-
-
-        </div>
-      </div>
-
-  </center>
-
-  
- 
-
-
-
-
-
-  
-
-
-
+    
+<button type="button"    onclick="bcamobile()" class="left primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/GpSauZ1UhwUS1621347184423.png" alt="Place Holder" />
+    </button>
 
 
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
